@@ -1,4 +1,7 @@
 #!/usr/bin/env ruby
 require_relative "../config/boot"
 require "rake"
+task :default do
+    puts "Running default task..."
+end
 Rake.application.run
